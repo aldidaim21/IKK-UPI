@@ -6,6 +6,8 @@ Route::get('/', function () {
     return view('index');
 });
 
+
+// sarpras
 Route::get('/sarpras', function () {
-    return view('UPA\sarpras');
+    return view('UPA/sarpras');
 });
